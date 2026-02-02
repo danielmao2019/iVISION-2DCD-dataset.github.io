@@ -4,10 +4,10 @@ This repository contains the source code for the iVISION dataset website.
 
 If you use iVISION in your work, please cite:
 ```
-@inproceedings{ivision2026,
-  author    = {Author Names},
+@inproceedings{mao2026ivision,
+  author    = {Mao, Dayou and Lin, Yuchen and Ebadi, Ashkan and Zelek, John and Wong, Alexander and Chen, Yuhao},
   title     = {iVISION: A Long-Term Change Detection Dataset for Large-Scale Outdoor Construction Monitoring},
-  booktitle = {ICRA},
+  booktitle = {IEEE International Conference on Robotics & Automation},
   year      = {2026},
 }
 ```
