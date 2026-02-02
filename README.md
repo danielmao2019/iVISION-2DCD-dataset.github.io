@@ -1,14 +1,14 @@
-# Nerfies
+# iVISION: A Long-Term Change Detection Dataset for Large-Scale Outdoor Construction Monitoring
 
-This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).
+This repository contains the source code for the iVISION dataset website.
 
-If you find Nerfies useful for your work please cite:
+If you use iVISION in your work, please cite:
 ```
-@article{park2021nerfies
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+@inproceedings{ivision2026,
+  author    = {Author Names},
+  title     = {iVISION: A Long-Term Change Detection Dataset for Large-Scale Outdoor Construction Monitoring},
+  booktitle = {ICRA},
+  year      = {2026},
 }
 ```
 
