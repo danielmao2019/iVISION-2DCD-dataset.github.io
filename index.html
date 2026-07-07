@@ -6,7 +6,7 @@
         content="iVISION is a long-term change detection dataset for large-scale outdoor construction monitoring.">
   <meta name="keywords" content="iVISION, change detection, dataset, construction monitoring, outdoor, long-term">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>iVISION: A Long-Term Change Detection Dataset for Large-Scale Outdoor Construction Monitoring</title>
+  <title>iVISION-2DCD: A Long-Term Change Detection Dataset for Large-Scale Outdoor Construction Monitoring</title>
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
@@ -54,7 +54,7 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">iVISION: A Long-Term Change Detection Dataset for Large-Scale Outdoor Construction Monitoring</h1>
+          <h1 class="title is-1 publication-title">iVISION-2DCD: A Long-Term Change Detection Dataset for Large-Scale Outdoor Construction Monitoring</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">Dayou Mao<sup>1</sup>,</span>
             <span class="author-block">Yuchen Lin<sup>2</sup>,</span>
@@ -213,7 +213,7 @@
         <div class="content">
           <h2 class="title is-3">Dataset Overview</h2>
           <p>
-            Overview coming soon.
+            iVISION-2DCD is a large-scale, synthetically generated benchmark for viewpoint-robust 2D change detection (2DCD) at outdoor construction sites. Bi-temporal image pairs are rendered from dense LiDAR point clouds using novel view synthesis, giving photorealistic views from arbitrary camera viewpoints while keeping the two time steps geometrically aligned. This captures how a site evolves in geometry and appearance over time — coverage that real UAV surveys struggle to obtain because of on-site safety and flight-path constraints. The current release spans data collected from September 2024 through April 2025 (see Dataset Download below).
           </p>
         </div>
       </div>
@@ -221,29 +221,7 @@
         <div class="content">
           <h2 class="title is-3">Annotations</h2>
           <p>
-            Annotation details coming soon.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <div class="content">
-          <h2 class="title is-3">Benchmark and Splits</h2>
-          <p>
-            Evaluation protocol, splits, and metrics coming soon.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <div class="content">
-          <h2 class="title is-3">Related Links</h2>
-          <p>
-            Related links coming soon.
+            Every image comes with pixel-level ground truth produced by a semi-automated pipeline that pairs semantic segmentation with automatic change-label generation. The result is per-pixel change masks (changed vs. unchanged regions) between the two time steps, with challenging real-world cases deliberately preserved rather than smoothed away.
           </p>
         </div>
       </div>
@@ -289,7 +267,7 @@
     <h2 class="title">BibTeX</h2>
     <pre><code>@inproceedings{mao2026ivision,
   author    = {Mao, Dayou and Lin, Yuchen and Ebadi, Ashkan and Zelek, John and Wong, Alexander and Chen, Yuhao},
-  title     = {iVISION: A Long-Term Change Detection Dataset for Large-Scale Outdoor Construction Monitoring},
+  title     = {iVISION-2DCD: A Long-Term Change Detection Dataset for Large-Scale Outdoor Construction Monitoring},
   booktitle = {IEEE International Conference on Robotics & Automation},
   year      = {2026},
 }</code></pre>

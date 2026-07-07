@@ -1,4 +1,4 @@
-# iVISION: A Long-Term Change Detection Dataset for Large-Scale Outdoor Construction Monitoring
+# iVISION-2DCD: A Long-Term Change Detection Dataset for Large-Scale Outdoor Construction Monitoring
 
 This repository contains the source code for the iVISION dataset website.
 
@@ -6,7 +6,7 @@ If you use iVISION in your work, please cite:
 ```
 @inproceedings{mao2026ivision,
   author    = {Mao, Dayou and Lin, Yuchen and Ebadi, Ashkan and Zelek, John and Wong, Alexander and Chen, Yuhao},
-  title     = {iVISION: A Long-Term Change Detection Dataset for Large-Scale Outdoor Construction Monitoring},
+  title     = {iVISION-2DCD: A Long-Term Change Detection Dataset for Large-Scale Outdoor Construction Monitoring},
   booktitle = {IEEE International Conference on Robotics & Automation},
   year      = {2026},
 }
